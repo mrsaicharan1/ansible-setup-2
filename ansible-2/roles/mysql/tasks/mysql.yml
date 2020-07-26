@@ -1,0 +1,11 @@
+- mysql_user:
+    name: "{{mysql_user}}"
+    password: "{{mysql_pass}}"
+    priv: '*.*:ALL'
+    state: present
+  tags:
+     - mysql-db
+
+     ##
+- name:  Create APP DB database
+  mysql_db: name="{{mysql_db}}" state=present login_user="{{mysql_user}}" login_password="{{mysql_pass}}"

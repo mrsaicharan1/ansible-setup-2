@@ -1,0 +1,2 @@
+2020-07-26 14:04:36,682 p=35527 u=saicharan n=ansible | ERROR! Unable to read source file (/Users/saicharan/Desktop/ansible-2/group_vars/vars.yml): [Errno 2] No such file or directory: '/Users/saicharan/Desktop/ansible-2/group_vars/vars.yml'
+2020-07-26 14:04:55,252 p=35550 u=saicharan n=ansible | Decryption successful
